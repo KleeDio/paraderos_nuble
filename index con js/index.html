@@ -1,0 +1,318 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Paraderos Ñuble</title>
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+
+    <!-- AOS animations -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css" />
+
+    <style>
+        /* HOVER CARDS (EFECTO 7) */
+        .feature-card {
+            transition: .3s ease;
+        }
+
+        .feature-card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 1rem 2rem rgba(0, 0, 0, .15);
+        }
+
+        /* Estilo para ícono */
+        .icon-badge {
+            width: 48px;
+            height: 48px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 12px;
+            background: rgba(13, 110, 253, 0.1);
+            font-size: 1.4rem;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg bg-white shadow-sm sticky-top" data-aos="fade-down">
+        <div class="container">
+            <a class="navbar-brand fw-bold" href="#inicio">
+                <span class="text-primary">Paraderos</span> Ñuble
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMain"
+                aria-controls="navMain" aria-expanded="false" aria-label="Abrir menú">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navMain">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#propuesta">Propuesta</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#caracteristicas">Características</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#segmentos">Segmentos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#modelo">Modelo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#prototipo">Prototipo</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <br>
+
+    <!-- HERO -->
+    <header id="inicio" class="hero text-center" data-aos="fade-up">
+        <br>
+        <div class="container">
+            <br>
+            <!-- EFECTO TYPEWRITER (3) -->
+            <h1 id="typewriter" class="display-5 fw-bold"></h1>
+
+            <p class="lead mb-4">
+                Modernizamos la experiencia del transporte público con energía solar,
+                información en tiempo real y diseño inclusivo.
+            </p>
+        </div>
+    </header>
+
+    <!-- PROPUESTA DE VALOR -->
+    <section id="propuesta" class="section-pad">
+        <div class="container">
+            <div class="row align-items-center g-5" data-aos="fade-right">
+                <div class="col-lg-6">
+                    <span class="badge bg-primary-subtle text-primary mb-2">Propuesta de Valor</span>
+                    <h2 class="fw-bold">Valor que entregamos</h2>
+                    <p class="text-secondary">
+                        Nuestros paraderos ofrecen infraestructura sustentable con <strong>paneles solares</strong>,
+                        <strong>pantallas informativas</strong>, <strong>botón de emergencia</strong> y
+                        <strong>diseño universal</strong>, mejorando la seguridad y comodidad de la comunidad.
+                    </p>
+                    <ul class="list-unstyled">
+                        <li class="mb-2"><span class="icon-badge me-2">🌞</span> Energía solar e iluminación autónoma
+                        </li>
+                        <li class="mb-2"><span class="icon-badge me-2">🕒</span> Información en tiempo real</li>
+                        <li class="mb-2"><span class="icon-badge me-2">🧑‍🦽</span> Accesibilidad total</li>
+                        <li class="mb-2"><span class="icon-badge me-2">🛡️</span> Seguridad avanzada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CARACTERÍSTICAS -->
+    <section id="caracteristicas" class="section-pad bg-light">
+        <div class="container">
+            <div class="text-center mb-5" data-aos="zoom-in">
+                <span class="badge bg-success-subtle text-success mb-2">Características Clave</span>
+                <h2 class="fw-bold">Accesibilidad y Seguridad</h2>
+            </div>
+
+            <div class="row g-4">
+                <div class="col-md-6" data-aos="fade-right">
+                    <div class="card border-0 shadow-soft feature-card h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-badge me-3">♿</div>
+                                <h5 class="card-title fw-semibold">Accesibilidad</h5>
+                            </div>
+                            <p class="text-secondary">
+                                Rampa antideslizante y señalética inclusiva para todo tipo de usuarios.
+                            </p>
+                            <ul>
+                                <li>Altura estándar y espacio de giro</li>
+                                <li>Señalética táctil y visual</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6" data-aos="fade-left">
+                    <div class="card border-0 shadow-soft feature-card h-100">
+                        <div class="card-body p-4">
+                            <div class="d-flex align-items-center mb-3">
+                                <div class="icon-badge me-3">🛡️</div>
+                                <h5 class="card-title fw-semibold">Seguridad</h5>
+                            </div>
+                            <p class="text-secondary">
+                                Cámaras, botón SOS y sensores de movimiento para mayor confianza.
+                            </p>
+                            <ul>
+                                <li>Registro de eventos y alertas</li>
+                                <li>Iluminación automática</li>
+                                <li>Materiales antivandálicos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+
+    <!-- SEGMENTOS -->
+    <section id="segmentos" class="section-pad" data-aos="fade-up">
+        <div class="container">
+            <div class="row g-4 align-items-center">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold">¿Para quién es?</h2>
+                    <p class="text-secondary">Clientes y usuarios del emprendimiento.</p>
+                    <div class="p-3 border rounded-3">
+                        <strong>Clientes</strong>: Municipalidad, empresas de transporte, auspiciadores.
+                    </div>
+                    <br>
+                    <div class="p-3 border rounded-3">
+                        <strong>Usuarios finales</strong>: ciudadanía, adultos mayores, personas con discapacidad.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MODELO DE NEGOCIO -->
+    <section id="modelo" class="section-pad bg-light" data-aos="fade-up">
+        <div class="container text-center mb-5">
+            <h2 id="reveal-text" class="fw-bold">Modelo de Negocio</h2>
+            <p class="text-secondary">Resumen ejecutivo para fondos.</p>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4" data-aos="fade-right">
+                <div class="p-4 bg-white rounded shadow-soft h-100">
+                    <h6 class="text-uppercase text-secondary">Factibilidad</h6>
+                    <p>Tecnologías probadas y alianzas con proveedores locales.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-up">
+                <div class="p-4 bg-white rounded shadow-soft h-100">
+                    <h6 class="text-uppercase text-secondary">Deseabilidad</h6>
+                    <p>Alta aceptación ciudadana por accesibilidad y seguridad.</p>
+                </div>
+            </div>
+
+            <div class="col-md-4" data-aos="fade-left">
+                <div class="p-4 bg-white rounded shadow-soft h-100">
+                    <h6 class="text-uppercase text-secondary">Viabilidad</h6>
+                    <p>Venta, arriendo y publicidad digital como ingresos principales.</p>
+                </div>
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row g-4">
+            <div class="col-lg-6" data-aos="fade-right">
+                <div class="p-4 bg-white rounded shadow-soft h-100">
+                    <h6 class="text-uppercase text-secondary">Contador de aprobación</h6>
+
+                    <!-- CONTADOR ANIMADO (2) -->
+                    <h2 class="counter text-primary" data-target="82">0</h2>
+                    <p class="text-secondary">Aprobación estimada en primeros usuarios</p>
+                </div>
+            </div>
+
+            <div class="col-lg-6" data-aos="fade-left">
+                <div class="p-4 bg-white rounded shadow-soft h-100">
+                    <h6 class="text-uppercase text-secondary">Fuentes de ingreso</h6>
+                    <ul>
+                        <li>Venta y arriendo</li>
+                        <li>Publicidad digital</li>
+                        <li>Fondos y proyectos</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <br>
+    </section>
+
+    <!-- PROTOTIPO -->
+    <section id="prototipo" class="section-pad" data-aos="fade-up">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h2 class="fw-bold">Prototipo y evidencia</h2>
+                    <p class="text-secondary">
+                        Mockup funcional validado con usuarios reales sobre accesibilidad y seguridad.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br>
+
+    <!-- FOOTER -->
+    <footer class="py-4 border-top">
+        <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
+            <p class="mb-0 small">© <span id="year"></span> Paraderos Ñuble</p>
+        </div>
+    </footer>
+
+    <!-- JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+
+    <!-- Año dinámico -->
+    <script>
+        document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+
+    <!-- EFECTO TYPEWRITER (3) -->
+    <script>
+        const texto = "Paraderos inteligentes, accesibles y seguros";
+        let i = 0;
+
+        function escribir() {
+            if (i < texto.length) {
+                document.getElementById("typewriter").innerHTML += texto.charAt(i);
+                i++;
+                setTimeout(escribir, 50);
+            }
+        }
+        escribir();
+    </script>
+
+    <!-- EFECTO REVEAL (10) -->
+    <script>
+        function reveal(element) {
+            const text = element.textContent;
+            element.textContent = "";
+            let i = 0;
+
+            const interval = setInterval(() => {
+                element.textContent += text[i];
+                i++;
+                if (i === text.length) clearInterval(interval);
+            }, 40);
+        }
+
+        reveal(document.getElementById("reveal-text"));
+    </script>
+
+    <!-- CONTADOR ANIMADO (2) -->
+    <script>
+        document.querySelectorAll('.counter').forEach(counter => {
+            const update = () => {
+                const target = +counter.getAttribute('data-target');
+                const current = +counter.innerText;
+                const increment = target / 150;
+
+                if (current < target) {
+                    counter.innerText = Math.ceil(current + increment);
+                    setTimeout(update, 15);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+            update();
+        });
+    </script>
+
+</body>
+
+</html>
