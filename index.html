@@ -32,7 +32,7 @@
             </div>
         </div>
     </nav>
-<br>
+    <br>
     <header id="inicio" class="hero">
         <br>
         <div class="container">
@@ -95,7 +95,8 @@
                                 <h5 class="card-title mb-0 fw-semibold">Accesibilidad</h5>
                             </div>
                             <p class="card-text text-secondary">
-                                Rampa antideslizante, asiento ergonómico. Cumplimiento de diseño universal para adultos mayores y personas con
+                                Rampa antideslizante, asiento ergonómico. Cumplimiento de diseño universal para adultos
+                                mayores y personas con
                                 discapacidad.
                             </p>
                             <ul class="mb-0">
@@ -126,7 +127,7 @@
                     </div>
                 </div>
             </div>
-<br>
+            <br>
         </div>
     </section>
 
@@ -225,15 +226,73 @@
                     </div>
                 </div>
             </div>
-<br>
+            <br>
         </div>
     </section>
-<br>
+    <br>
+
+    <!-- COSTO DEL PARADERO INTELIGENTE -->
+    <section id="costo" class="section-pad bg-light">
+        <div class="container">
+            <div class="text-center mb-5">
+                <h2 class="fw-bold">Costo del Paradero Inteligente</h2>
+                <p class="text-secondary">Desglose estimado de inversión según componentes y mano de obra.</p>
+            </div>
+
+            <div class="row g-4">
+
+                <!-- Componentes tecnológicos -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow-soft h-100">
+                        <h5 class="text-primary fw-semibold mb-3">Componentes Tecnológicos</h5>
+                        <ul class="mb-0">
+                            <li>Panel solar: <strong>$100.000</strong></li>
+                            <li>Botón de emergencia (SOS): <strong>$25.000</strong></li>
+                            <li>Cámara de seguridad: <strong>$40.000</strong></li>
+                            <li>Señalética con sonido: <strong>$5.000</strong></li>
+                        </ul>
+                        <hr>
+                        <p class="fw-bold">Subtotal componentes: $170.000</p>
+                    </div>
+                </div>
+
+                <!-- Infraestructura y servicios -->
+                <div class="col-md-6">
+                    <div class="p-4 bg-white rounded shadow-soft h-100">
+                        <h5 class="text-primary fw-semibold mb-3">Infraestructura y Servicios</h5>
+                        <ul class="mb-0">
+                            <li>Estructura del paradero: <strong>$4.500.000</strong></li>
+                            <li>Mano de obra: <strong>$120.000 – $150.000</strong></li>
+                            <li>Arquitecto / diseño técnico: <strong>$300.000</strong></li>
+                        </ul>
+                        <hr>
+                        <p class="fw-bold">Subtotal infraestructura: $4.920.000</p>
+                    </div>
+                </div>
+
+            </div>
+
+            <br>
+
+            <!-- Total -->
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="p-4 bg-primary text-white rounded shadow-soft text-center">
+                        <h4 class="fw-bold">Costo total estimado del paradero</h4>
+                        <p class="display-6 fw-bold">$5.105.000</p>
+                    </div>
+                </div>
+            </div>
+            <br>
+        </div>
+    </section>
+
     <!-- PROTOTIPO / EVIDENCIA -->
     <section id="prototipo" class="section-pad">
         <div class="container">
             <div class="row g-4 align-items-center">
                 <div class="col-lg-6">
+                    <br>
                     <h2 class="fw-bold">Prototipo y evidencia</h2>
                     <p class="text-secondary">
                         Mockup funcional con iluminación solar, botón SOS y pantalla informativa. Validación con
@@ -250,24 +309,20 @@
             </div>
         </div>
     </section>
-<br>
+    <br>
 
     <!-- FOOTER -->
     <footer class="py-4 border-top">
         <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between gap-3">
             <p class="mb-0 small">© <span id="year"></span> Paraderos Ñuble </p>
-            <div class="d-flex gap-3">
-                <a href="#propuesta" class="small">Propuesta</a>
-                <a href="#modelo" class="small">Modelo</a>
-            </div>
         </div>
     </footer>
 
-    
+
     <script>
         document.getElementById('year').textContent = new Date().getFullYear();
     </script>
-    
+
 
 </body>
 
